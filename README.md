@@ -1,2 +1,2 @@
 # Frontend_Koru
-Project create during Escola Koru frontend module
+Project created during Escola Koru frontend module
