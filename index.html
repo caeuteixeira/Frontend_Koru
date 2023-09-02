@@ -1,93 +1,131 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ConTech</title>
+    <title>Home</title>
 </head>
 <body>
     <header>
         <img src="logo.png" alt="Logo" class="logo">
         <img src="profile_picture.png" alt="Profile Picture" class="profile-picture">
     </header>
-    
-    <main>
-        <button class="button">Veja a Programação</button>
-        
+
+    <div id="chamada">
+        <h4>A maior conferência de tecnologia do país</h4>
+        <h1>Bem-vindo à ConTech</h1>
+        <button class="button">Veja a programação completa</button>
+    </div>
+
+    <div id="inscrição">
         <form class="form">
             <input type="text" placeholder="Nome">
             <input type="email" placeholder="Email">
             <input type="tel" placeholder="Telefone">
             <input type="text" placeholder="Função na feira">
             <button class="button">Inscrever-me</button>
-        </form>
-        
-        <img src="image.png" alt="Image">
-        <p>Frase abaixo da imagem.</p>
-        <h1>class="large">Frase com fonte maior (h1).</h1>
-        
-        <img src="image_left.png" alt="Image" class="left">
-        <p>Frase 1 ao lado da imagem.</p>
-        <p>Frase 2 ao lado da imagem.</p>
-        
-        <img src="image.png" alt="Image">
-        <p>Frase abaixo da imagem.</p>
-        <h1>Frase com fonte maior (h1).</h1>
-        <p>Frase abaixo</p>
-        
-        <button class="button">Inscreva-se aqui</button>
-        
-        <img src="image_left.png" alt="Image" class="left">
-        <p>Frase abaixo da imagem.</p>
-        
-        <img src="image_left.png" alt="Image" class="left">
-        <p>Frase 1 ao lado da imagem.</p>
-        <p>Frase 2 ao lado da imagem.</p>
-        
-        <img src="image.png" alt="Image">
-        <p>Frase abaixo da imagem.</p>
-        <h1>Frase com fonte maior (h1).</h1>
-        
-        <p>Frase abaixo</p>
-        
-        <form class="form">
-            <input type="text" placeholder="Nome">
-            <input type="email" placeholder="Email">
-            <input type="tel" placeholder="Telefone">
-            <input type="text" placeholder="Função">
-            <button class="button">Inscrever-se</button>
-        </form>
-        
-        <img src="logo.png" alt="Logo" class="logo">
-        
-        <p>Frase abaixo do logo.</p>
-        
-        <p>Frase</p>
-        
-        <section id="frases">
-            <div id="frases-esquerda">
-                <p>Frase 1</p>
-                <p>Frase 2</p>
-                <p>Frase 3</p>
-            </div>
-            <div id="frases-direita">
-                <p>Frase 4</p>
-                <p>Frase 5</p>
-                <p>Frase 6</p>
-            </div>
-        </section>
+    </div>
 
-        <p>Frase abaixo das seis frases.</p>
+    <section id="palestrantes">
+        <div id="palestrantes-principal">
+            <img alt="Imagem Ada Lovelace" src="image.png">
+            <p>Ada Lovelace, visionária pioneira na ciência da computação, conhecida também como a mãe da computação. </p>
+        </div>
+
+        <h3>Confira também os outros palestrantes que estarão presentes na conferência</h3>
         
-        <img src="image1.png" alt="Image">
-        <img src="image2.png" alt="Image">
-        <img src="image3.png" alt="Image">
-        
-        <p>Frase 1 abaixo das imagens.</p>
-        <p>Frase 2 abaixo das imagens.</p>
-        
-        <p>&copy; 2023 ConTech</p>
-    </main>
+        <div class="palestrante">
+            <img alt="Imagem Carol Shaw" src="image.png">
+            <p>Carol Shaw, pioneira no desenvolvimento de jogos, ela foi uma das primeiras mulheres a trabalhar na indústria de jogos e é reconhecida por criar o jogo "River Raid" em 1982, que se tornou um clássico.</p>
+        </div>
+
+        <div class="palestrante">
+            <img alt="Imagem Frances Allen" src="image.png">
+            <p>Frances Allen, uma gigante na ciência da computação e pioneira em compiladores, primeira mulher a receber o Prêmio Turing, o mais prestigioso prêmio em ciência da computação.</p>
+        </div>
+
+        <div class="palestrante">
+            <img alt="Imagem Grace Hopper" src="image.png">
+            <p>Grace Hopper, primeira mulher a ter um PhD em Matemática na universidade de Yale, uma das idealizadoras de uma das linguagens de programação mais utilizadas para banco de dados de negócios, a COBOL.</p>
+        </div>
+    </section>
+    
+    <section id="estatísticas">
+        <div class="estatística">
+            <img alt="ícone" src="image.png">
+            <h1>54+</h1>
+            <p>empresas já fizeram contratações durante o evento</p>
+        </div>
+
+        <div class="estatística">
+            <img alt="ícone" src="image.png">
+            <h1>37</h1>
+            <p>palestrantes já foram confirmados para essa edição</p>
+        </div>
+
+        <div class="estatística">
+            <img alt="ícone" src="image.png">
+            <h1>450</h1>
+            <p>das mil vagas já foram preenchidas</p>
+        </div>
+
+        <div class="estatística">
+            <img alt="ícone" src="image.png">
+            <h1>77%</h1>
+            <p>de participantes de edições anteriores já fizeram a pré-inscrição para a edição desse ano</p>
+        </div>
+    </section>
+    
+    <section id="edições-anteriores">
+        <p>Edições anteriores</p>
+        <h1>Bem-vindo à ConTech, a maior conferência de tecnologia da América Latina, onde a inovação e a inspiração se encontram a cada edição!</h1>
+        <p>Ao longo dos anos, nossa conferência tem sido um ponto de encontro para os melhores mentes e entusiastas da tecnologia, e estamos entusiasmados em compartilhar um vislumbre das edições anteriores que nos ajudaram a construir essa incrível jornada tecnológica.</p>
+        <img alt="anos-anteriores" src="image.png">
+    </section>
+
+    <section id="patrocinadores">
+        <p>Alguns dos nossos patrocinadores</p>
+        <h3>Confira a lista completa de patrocinadores e saiba quem apoia a ConTech</h3>
+        <img alt="koru" src="image.png">
+        <img alt="curso-em-video" src="image.png">
+        <img alt="udemy" src="image.png">
+        <button class="button">Veja a programação completa</button>
+    </section>
+
+    <section id="depoimentos">
+
+    </section>
+    
+    
+    
+    
+    
+        <ul>
+        <li><a href="programacao.html">Programação</a></li>
+        <li><a href="inscricao.html">Inscrição</a></li>
+        <li><a href="contato.html">Contato</a></li>
+    </ul>
+    <h2>Palestrantes Destacados</h2>
+   
+    <div class="palestrante">
+        <h3>Samuel Birocchi</h3>
+        <p>Especialista em Inteligência Artificial e Desenvolvimento Fullstack. Com vasta experiência em projetos de IA e programação fullstack, Samuel traz insights valiosos para a convergência entre tecnologia e inovação.</p>
+    </div>
+   
+    <div class="palestrante">
+        <h3>Vitor Ramos</h3>
+        <p>Especialista em Mercado de Tecnologia e Segurança Cibernética e de Dados. Com um profundo conhecimento em segurança cibernética e análise de dados, Vitor oferece uma visão abrangente do cenário tecnológico atual.</p>
+    </div>
+   
+    <div class="palestrante">
+        <h3>Poliana Nascimento</h3>
+        <p>Especialista em Desenvolvimento de Apps. Poliana é apaixonada por criar aplicativos inovadores e envolventes. Ela compartilhará sua experiência em desenvolvimento de apps e as últimas tendências da indústria.</p>
+    </div>
+   
+    <div class="palestrante">
+        <h3>Thaís Carneiro</h3>
+        <p>Programadora Fullstack e Professora. Thaís é uma entusiasta da educação em tecnologia, unindo sua paixão pelo desenvolvimento web com o ensino. Ela tem muito a compartilhar sobre a jornada de se tornar uma programadora fullstack de sucesso.</p>
+    </div>
+   
+    <p>Inscreva-se agora para aprender com esses renomados palestrantes!</p>
+   
 </body>
 </html>
-
