@@ -1,3 +1,5 @@
+/*menu*/
+
 *{
     margin: 0 auto;
     padding: 0;
@@ -34,7 +36,173 @@
 
 #menu-h ul li:last-child a {
     float: right;
-    background-color: #b20ff6;
+    background-color: #265bee;
     border-radius: 12%;
-    
 }
+
+/* chamada*/
+
+#chamada {
+    
+    text-align: center;
+}
+
+.buttonpro{
+  position: relative;
+  background-color: #ceea24;
+  border-radius: 5%;
+  border: none;
+  font-size: 24px;
+  color: #ffff;
+  padding: 6px;
+  width: 350px;
+  text-align: center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.buttonpro:after {
+    content: "";
+    background: #ceea24;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+
+.buttonpro:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+
+/* inscricao*/
+#inscricao h1{
+    background-color: #ceea24;
+    text-align: center;
+}
+
+#inscricao{
+    margin: 1% auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ceea24;
+    border-radius: 12px;
+    width: 355px;
+    height: 320px;
+    padding: 35px;
+}
+
+.buttoninscricao{
+    position: relative;
+    background-color: #265bee;
+    border-radius: 5%;
+    border: none;
+    font-size: 24px;
+    color: #ffff;
+    padding: 6px;
+    width: 300px;
+    text-align: center;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .buttoninscricao:after {
+      content: "";
+      background: #265bee;
+      display: block;
+      position: absolute;
+      padding-top: 300%;
+      padding-left: 350%;
+      margin-left: -20px !important;
+      margin-top: -120%;
+      opacity: 0;
+      transition: all 0.8s
+  }
+  
+  .buttoninscricao:active:after {
+      padding: 0;
+      margin: 0;
+      opacity: 1;
+      transition: 0s
+  }
+
+  #palestrantes{
+    text-align: justify;
+    margin: center;
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ea399f;
+    border-radius: 12px;
+    width: 655px;
+    height: 920px;
+    padding: 35px;
+  }
+    
+
+  .palestranteum img{
+    border-radius: 10%;
+    text-align: center;
+    width: 50%;
+  }
+  .palestranteum p{
+    text-align: center;
+  }
+
+  .palestrantedois img, p{
+    display: inline-block;
+    border-radius: 50%;
+    text-align: left;
+    width: 10%;
+  }
+
+  .palestrantetres img{
+    border-radius: 50%;
+    text-align: left;
+    width: 10%;
+  }
+
+  .palestrantequatro img{
+    border-radius: 50%;
+    text-align: left;
+    width: 10%;
+  }
+
+
+  /*palestrante*/
+
+  #estatísticas{
+    text-align: center;
+    background-color: #265bee;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .umesta{
+    width: 10%;
+  }
+
+  .doisesta{
+    width: 10%;
+  }
+
+  .tresesta{
+    width: 10%;
+  }
+  
+  .quatroesta{
+    width: 10%;
+  }
+  /*Estatistica*/
+
+
+
