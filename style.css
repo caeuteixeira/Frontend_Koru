@@ -9,20 +9,24 @@
 
 #menu-h{
     background-color: #ea399f;
+    text-align: center;
+
 }
 
-#menu-h ul {
+
+#menu-h a{
+  text-align: center;
     max-width: 900px;
     list-style: none;
     padding: 0;
     background-color: #ea399f;
 }
 
-#menu-h ul li {
-    display: inline;
+#menu-h a{
+    display: block;
 }
 
-#menu-h ul li a {
+#menu-h  a {
     color: #CBD0F7;
     padding: 20px;
     display: inline-block;
@@ -30,11 +34,11 @@
     transition: background .4s;
 }
 
-#menu-h ul li a:hover {
+#menu-h a:hover {
     background-color: #ffff;
 }
 
-#menu-h ul li:last-child a {
+#menu-h :last-child {
     float: right;
     background-color: #265bee;
     border-radius: 12%;
