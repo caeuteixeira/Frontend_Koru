@@ -31,7 +31,7 @@
 }
 
 #menu-h ul li a:hover {
-    background-color: #dd8fbd;
+    background-color: #ffff;
 }
 
 #menu-h ul li:last-child a {
@@ -43,14 +43,13 @@
 /* chamada*/
 
 #chamada {
-    
+    background-color: #ea399f;
     text-align: center;
 }
 
 .buttonpro{
   position: relative;
-  background-color: #ceea24;
-  border-radius: 5%;
+  background-color: #dd8fbd;
   border: none;
   font-size: 24px;
   color: #ffff;
@@ -65,7 +64,7 @@
 
 .buttonpro:after {
     content: "";
-    background: #ceea24;
+    background: #ea399f;
     display: block;
     position: absolute;
     padding-top: 300%;
@@ -90,21 +89,17 @@
 }
 
 #inscricao{
-    margin: 1% auto;
+   
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #ceea24;
-    border-radius: 12px;
-    width: 355px;
-    height: 320px;
     padding: 35px;
 }
 
 .buttoninscricao{
     position: relative;
     background-color: #265bee;
-    border-radius: 5%;
     border: none;
     font-size: 24px;
     color: #ffff;
@@ -124,7 +119,6 @@
       position: absolute;
       padding-top: 300%;
       padding-left: 350%;
-      margin-left: -20px !important;
       margin-top: -120%;
       opacity: 0;
       transition: all 0.8s
@@ -137,46 +131,47 @@
       transition: 0s
   }
 
-  #palestrantes{
-    text-align: justify;
+  #palestrantes {
+    text-align: center;
     margin: center;
     display: block;
     flex-direction: column;
-    align-items: center;
+    
     background-color: #ea399f;
-    border-radius: 12px;
-    width: 655px;
-    height: 920px;
-    padding: 35px;
+    padding: 30px;
+    
   }
     
 
-  .palestranteum img{
+  .palestranteum img {
     border-radius: 10%;
     text-align: center;
-    width: 50%;
-  }
-  .palestranteum p{
-    text-align: center;
-  }
-
-  .palestrantedois img, p{
-    display: inline-block;
-    border-radius: 50%;
-    text-align: left;
-    width: 10%;
+    width: 25%;
+    text-align: auto;
+    
   }
 
-  .palestrantetres img{
+  .palestrantedois img {
     border-radius: 50%;
     text-align: left;
-    width: 10%;
+    width: 8%;
+  }
+
+  .palestrantetres img {
+    border-radius: 50%;
+    text-align: left;
+    width: 8%;
   }
 
   .palestrantequatro img{
     border-radius: 50%;
     text-align: left;
-    width: 10%;
+    width: 8%;
+  }
+
+  h3{
+    font-size: 19px;
+    background-color: #ceea24;
   }
 
 
@@ -203,6 +198,171 @@
     width: 10%;
   }
   /*Estatistica*/
+  
+  #edições-anteriores img{
+    border-radius: 3%;
+    text-align: center;
+    display: inline-block;
+    position: center;
+    width: 940px;
+    height: 650px;
+  }
 
+  #edições-anteriores{
+    background-color: #ceea24;
+    text-align: center;
+    font-size: 19px;
+  }
+  /*edições anteriores*/
 
+  #patrocinadores{
+    background-color: #265bee;
+    text-align: center;
+    font-size: 25px;
+
+  }
+
+  #patrocinadores img{
+    text-align: center;
+    display: inline-block;
+    position: center;
+    width: 620px;
+    height: 300px;
+  }
+
+  .buttonpatrocinador{
+    position: relative;
+    background-color: #3e70f8;
+    border: none;
+    font-size: 24px;
+    color: #ffff;
+    padding: 6px;
+    width: 300px;
+    text-align: center;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+  }
+
+  .buttonpatrocinador:after {
+    content: "";
+    background: #3e70f8;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+
+  .ppratro{
+    background-color: #3e70f8;
+  }
+
+  .patro{
+    background-color: #265bee;
+  }
+
+  /*patrocinadores*/
+
+  #depoimento img{
+    width: 10%;
+    text-align: center;
+    display: block;
+    border-radius: 25% 10%;
+  }
+
+  #depoimento{
+    background-color: #b20ff6;
+    text-align: center;
+  }
+
+  /*Depoimento*/
+
+ #fique-por-dentro{
+    text-align: center;
+    background-color: #ea399f;
+    font-size: 19px;
+    line-height: 2em;
+  }
+
+  .buttonnot{
+    position: relative;
+    background-color: #3e70f8;
+    border: none;
+    font-size: 24px;
+    color: #ffff;
+    padding: 6px;
+    width: 250px;
+    text-align: center;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+  }
+
+  .buttonot:after {
+    content: "";
+    background: #3e70f8;
+    display: block;
+    position: absolute;
+    padding-top: 200%;
+    padding-left: 250%;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+  }
+
+  input[type=text] {
+    height: 30px;
+    width: 250px;
+    border: none;
+    border-radius: 10px;
+    }
+
+    input[type=tel] {
+    height: 30px;
+    width: 250px;
+    border: none;
+    border-radius: 10px;
+    }
+
+    input[type=função] {
+    height: 30px;
+    width: 250px;
+    border: none;
+    border-radius: 10px;
+    }
+
+    /*notifições*/
+
+    footer{
+      background-color: #265bee;
+    }
+
+    .foot{
+      background-color: #265bee;
+      border: none;
+      display: block;
+      width: 15%;
+      position: center;
+      text-align: center;
+    }
+
+    .footum {
+      background-color: #265bee;
+      display: block;
+      text-align: center;
+      position: center;
+    }
+
+    #seções{
+      background-color: #265bee;
+      display: block;
+      text-align: center;
+    }
+
+    
 
